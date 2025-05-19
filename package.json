@@ -3,9 +3,7 @@
   "version": "0.2.0",
   "description": "A command line tool to test circom circuit with given inputs/outputs",
   "main": "./dist/index.js",
-  "bin": {
-    "snarkit2": "./dist/cli.js"
-  },
+  "bin": "./dist/cli.js",
   "build": "npx tsc",
   "scripts": {
     "fmt": "npx prettier --write \"**/*.{js,ts}\"",
@@ -45,5 +43,6 @@
     "prettier": "^2.2.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.2.3"
-  }
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
 }
